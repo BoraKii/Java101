@@ -23,7 +23,6 @@ public class Main {
         muzik = input.nextByte();
 
         double ortalama = (matematik+fizik+kimya+turkce+tarih+muzik) / 6.0;
-
         System.out.println("Ortalamanız: " + ortalama);
 
         String sonuc = ortalama >= 60 ? "Sınıf Geçme Durumu: Geçtiniz" : "Sınıf Geçme Durumu: Kaldınız";
