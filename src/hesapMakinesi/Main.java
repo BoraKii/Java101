@@ -12,8 +12,7 @@ public class Main {
         select = input.nextInt();
 
         if ((select <= 0) || (select > 4)) {
-            System.out.println("Geçersiz bir işlem girdiniz. Program sonlandırıldı.");
-            return;
+            System.out.println("Geçersiz bir işlem girdiniz. Program sonlandırıldı."); return;
         }
 
         System.out.print("Birinci sayıyı giriniz: ");
