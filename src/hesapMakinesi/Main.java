@@ -33,7 +33,10 @@ public class Main {
                 System.out.println("Çarpma: " + (num1 * num2));
                 break;
             case 4:
-                System.out.println("Bölme: " + (num1 / num2));
+                if (num2 != 0)
+                    System.out.println("Bölme: " + (num1 / num2));
+                else
+                    System.out.println("Bir sayı 0'a bölünemez.");
                 break;
         }
     }
