@@ -1,8 +1,10 @@
 package daireninAlaniCevresi;
+
 import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args){
-        double veri,alan,pi=3.14;
+    public static void main(String[] args) {
+        double veri, alan, pi = 3.14;
         short a;
 
         Scanner input = new Scanner(System.in);

@@ -1,8 +1,10 @@
 package dikUcgendeHipotenus;
+
 import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args){
-        int a,b;
+    public static void main(String[] args) {
+        int a, b;
         double c, cevre;
 
         Scanner input = new Scanner(System.in);
@@ -11,12 +13,12 @@ public class Main {
         System.out.print("2. Kenarı Giriniz: ");
         b = input.nextInt();
 
-        c = Math.sqrt((a*a + b*b));
+        c = Math.sqrt((a * a + b * b));
         System.out.println("Hipotenüs: " + c);
 
-        cevre = (a+b+c);
+        cevre = (a + b + c);
         double u = cevre / 2;
-        double alan = Math.sqrt(u*(u-a)*(u-b)*(u-c));
+        double alan = Math.sqrt(u * (u - a) * (u - b) * (u - c));
 
         System.out.println("Üçgenin Çevresi : " + cevre);
         System.out.println("Üçgenin Alanı : " + alan);

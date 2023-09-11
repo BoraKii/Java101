@@ -1,9 +1,12 @@
+package notOrtalamasi;
+
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        byte matematik,fizik,kimya,turkce,tarih,muzik;
-        Scanner input = new Scanner(System.in);
+        byte matematik, fizik, kimya, turkce, tarih, muzik;
 
+        Scanner input = new Scanner(System.in);
         System.out.print("Matematik notunuzu giriniz: ");
         matematik = input.nextByte();
 
@@ -22,7 +25,7 @@ public class Main {
         System.out.print("Müzik notunuzu giriniz: ");
         muzik = input.nextByte();
 
-        double ortalama = (matematik+fizik+kimya+turkce+tarih+muzik) / 6.0;
+        double ortalama = (matematik + fizik + kimya + turkce + tarih + muzik) / 6.0;
         System.out.println("Ortalamanız: " + ortalama);
 
         String sonuc = ortalama >= 60 ? "Sınıf Geçme Durumu: Geçtiniz" : "Sınıf Geçme Durumu: Kaldınız";

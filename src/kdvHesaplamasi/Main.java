@@ -1,4 +1,5 @@
 package kdvHesaplamasi;
+
 import java.util.Scanner;
 
 public class Main {
@@ -13,11 +14,10 @@ public class Main {
             System.out.println("Geçersiz bir fiyat girdiniz. İşlem sonlandı."); return;
         }
 
-        if (fiyat >= 0 && fiyat <= 1000){
+        if (fiyat >= 0 && fiyat <= 1000)
             kdvOrani = 0.18;
-        } else {
+        else
             kdvOrani = 0.08;
-        }
 
         kdvTutari = fiyat * kdvOrani;
         kdvFiyati = fiyat + kdvTutari;

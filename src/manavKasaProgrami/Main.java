@@ -1,7 +1,9 @@
 package manavKasaProgrami;
+
 import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         float armut = 2.14f, elma = 3.67f, domates = 1.11f, muz = 0.95f, patlican = 5.00f, kg, fiyat = 0;
 
         Scanner input = new Scanner(System.in);
