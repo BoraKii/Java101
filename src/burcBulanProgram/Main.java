@@ -80,7 +80,7 @@ public class Main {
             System.out.println("Geçersiz bir tarih girdiniz.");
         }
 
-        if (isError == false)
+        if (!isError)
             System.out.println("Burcunuz: " + horoscope);
     }
 }

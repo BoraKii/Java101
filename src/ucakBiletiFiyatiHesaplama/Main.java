@@ -36,6 +36,7 @@ public class Main {
                 break;
             default:
                 isError = true;
+                break;
         }
 
         if (!(km >= 0) || !(age >= 0))
