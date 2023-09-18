@@ -16,7 +16,5 @@ public class Main {
             tempOne = tempTwo;
             tempTwo = total;
         }
-
-
     }
 }
