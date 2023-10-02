@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Sonuç: " + result);
     }
 
-    public static void minus() {
+    static void minus() {
         int number, counter, result = 0;
         Scanner input = new Scanner(System.in);
         System.out.print("Kaç adet sayı gireceksiniz: ");
@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Sonuç: " + result);
     }
 
-    public static void times() {
+    static void times() {
         int number, i = 1, result = 1;
 
         while (true) {
@@ -49,7 +49,7 @@ public class Main {
         System.out.println("Sonuç: " + result);
     }
 
-    public static void divided() {
+    static void divided() {
         int number, counter, result = 0;
         Scanner input = new Scanner(System.in);
         System.out.print("Kac adet sayı gireceksiniz: ");
@@ -71,7 +71,7 @@ public class Main {
         System.out.println("Sonuç: " + result);
     }
 
-    public static void power() {
+    static void power() {
         int base, n, result = 1;
         Scanner input = new Scanner(System.in);
         System.out.print("Taban değeri giriniz: ");
@@ -85,7 +85,7 @@ public class Main {
         System.out.println("Sonuç: " + result);
     }
 
-    public static void factorial() {
+    static void factorial() {
         int number, result = 1;
         Scanner input = new Scanner(System.in);
         System.out.print("Sayı giriniz: ");
@@ -97,7 +97,7 @@ public class Main {
         System.out.println("Sonuç: " + result);
     }
 
-    public static void mode() {
+    static void mode() {
         int number, mod, result = 0;
         Scanner input = new Scanner(System.in);
         System.out.print("Sayı giriniz: ");
@@ -108,7 +108,7 @@ public class Main {
         System.out.println("Sonuç: " + result);
     }
 
-    public static void rectangle() {
+    static void rectangle() {
         int longEdge, shortEdge;
         Scanner input = new Scanner(System.in);
         System.out.print("Uzun kenar değerini giriniz: ");
